@@ -1,0 +1,115 @@
+.gran{
+    margin-bottom: 200px;
+    padding-left: 42.5px;
+    padding-right: 42.5px;
+
+    .gran__color{
+        width: 100%;
+        margin-top: 60px;
+        img{
+            width: 100%;
+        }
+    }
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -60px;
+    }
+   .gran__card{
+
+       .gran__text{
+           max-width: 235px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            gap: 20px;
+            b{
+               font-size: 24px;
+               font-weight: 900;
+               color: #333D4B;
+            }
+            p{
+               text-align: center;
+               font-size: 16px;
+               font-weight: 400;
+               color: #333D4B;
+            }
+       }
+   }
+}
+
+@media (max-width:700px) {
+    .gran{
+        &__box{
+            display: flex;
+    flex-direction: column;
+            .gran__card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+                padding: 50px;
+                img{
+                width: 80%;
+                }
+                .gran__text{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    
+                    b{
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                    p{
+                       text-align: center;
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:327px) {
+    .gran{
+        // .gran__color{
+        // }
+        &__box{
+            display: flex;
+    flex-direction: column;
+            .gran__card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 10px;
+                padding: 40px;
+                img{
+                width: 70%;
+                }
+                .gran__text{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    
+                    b{
+                        font-size: 20px;
+                        text-align: center;
+                        font-weight: 900;
+                    }
+                    p{
+                       text-align: center;
+                        font-size: 14px;
+                        font-weight: 400;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+       
+        
